@@ -20,7 +20,7 @@ type Mutation {
 
     addUser(
         username: String!
-        Email: String!
+        email: String!
         password: String!
     ): Auth
 
