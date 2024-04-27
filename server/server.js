@@ -14,17 +14,18 @@ const PORT = process.env.PORT || 3001;
 const apolloServer = new ApolloServer({
   typeDefs,
   resolvers,
-  instrospection: true,
+  introspection: true,
   cache: 'bounded',
   context: authMiddleware
 })
 
+app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors());
+
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(_dirname, '../client/build')))
+  app.use(express.static(path.join(__dirname, '../client/build')))
 }
 
 app.get('/', (req, res) => {
