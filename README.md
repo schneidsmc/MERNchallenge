@@ -9,23 +9,14 @@
   <img src="https://img.shields.io/github/last-commit/schneidsmc/MERNchallenge" />
 <br />
 
-![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&labelColor=black)
-![mySql Badge](https://img.shields.io/badge/MySQL%20-%20%234479A1?style=for-the-badge&logo=mysql&logoColor=%234479A1&labelColor=white)
-![Node.js Badge](https://img.shields.io/badge/Node.js-%23339933?style=for-the-badge&logo=node.js&labelColor=black)
-![Sequelize Badge](https://img.shields.io/badge/sequelize%20-%20%2352B0E7?style=for-the-badge&logo=sequelize&labelColor=black)
-![Tailwind Badge](https://img.shields.io/badge/tailwind%20css%20-%20%2306B6D4?style=for-the-badge&logo=tailwindcss&labelColor=black)
 ![esLint Badge](https://img.shields.io/badge/ESLint%20-%20%234B32C3?style=for-the-badge&logo=eslint&labelColor=black)
+![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&labelColor=black)
+![MongoDB Badge](https://img.shields.io/badge/MongoDB-%2347A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Node.js Badge](https://img.shields.io/badge/Node.js-%23339933?style=for-the-badge&logo=node.js&labelColor=black)
 ![Prettier Badge](https://img.shields.io/badge/prettier%20-%20%23F7B93E?style=for-the-badge&logo=prettier&labelColor=black)
-![dot env Badge](https://img.shields.io/badge/handlebars%20-%20%23000000?style=for-the-badge&logo=handlebarsdotjs&labelColor=black)
+
 </div>
 
-## Description 📚
-
-- What was your motivation? Why did you build this project? What problem does it solve? What did you learn?
-
-mern stack
-
-This was created using Javascript,JQuery,NodeJS.
 
 ## Table of Contents 
 
@@ -66,17 +57,16 @@ Running `npm i` to install all the dependancies. Run `npm run build` to build th
 
 ## Usage 🏁
 
-Provide instructions and examples for use.
-
-npm i
+When you open the application, the user can login or sign up and then search the google books api. The search engine will return a list of books and the user can hit save this book and it will save under the users account. The user can also then delete the book from that list.
 
 ## Demonstration
 
-LINK SYNTAX
-[here]( )
 
-IMAGE SYNTAX 
-<img src="" alt="description" width="300" height="auto"> 
+<img src="public/login.png" alt="login" width="300" height="auto"> 
+<br />
+<img src="public/user-books.png" alt="userbooks" width="300" height="auto"> 
+<br />
+<img src="public/delete-book.png" alt="delete" width="300" height="auto"> 
 
 ## Author 👋🏽
 
